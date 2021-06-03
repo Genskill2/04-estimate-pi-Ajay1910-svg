@@ -3,7 +3,7 @@
 #include <stdio.h>
 #include <math.h>
 
-float mc_pi(int n);
+float mc_pi(int n)
 {
   int circle=0;
   int square=0;
