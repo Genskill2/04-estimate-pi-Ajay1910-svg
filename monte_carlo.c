@@ -12,11 +12,11 @@ float mc_pi(int n)
   {
     x=frandom();
     y=frandom();
-    if((x*x)+(y*y)<=1)
+    if(((x*x)+(y*y))<=1)
     {circle++;}
     else{square++;}
-  }square=square+circle
-    float pi=4*(circle/square);
+  }square=square+circle;
+    float pi=4*(float)circle/square;
   return pi;
 }
   
