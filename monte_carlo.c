@@ -46,7 +46,7 @@ float mc_pi(int n){
   for(int i=1;i<=n;i++){
     x=frandom();
     y=frandom();
-    if(((x*x)+(y*y))<=1){circle++;}
+    if(((xx)+(yy))<=1){circle++;}
     else{square++;}
   }square=square+circle;
   float pi=4*(float)circle/square;
